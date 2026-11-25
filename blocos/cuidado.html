@@ -1,0 +1,51 @@
+<section class="blk-cui" id="cuidado">
+  <div class="wrap">
+    <div class="blk-cui__cab" data-reveal>
+      <p class="blk-cui__eyebrow">Antes, durante e depois</p>
+      <h2 class="blk-cui__titulo" data-acende>As pacientes descrevem o atendimento em três momentos. Nenhum deles termina na saída do consultório.</h2>
+    </div>
+    <ol class="blk-cui__lista">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-cui__n">01</span>
+        <span class="blk-cui__ico"><!--icone:conversa--></span>
+        <h3>Antes: ela ouve o que você quer</h3>
+        <p>A avaliação parte do seu gosto. A Dra. Catharina diz com franqueza o que fica harmônico no seu rosto, e a decisão é tomada junto.</p>
+        <blockquote>"Faz as avaliações conforme o gosto da cliente, e dá opiniões que fazem muito sentido."<cite>Mayara, no Google</cite></blockquote>
+      </li>
+      <li data-reveal style="--d:90ms">
+        <span class="blk-cui__n">02</span>
+        <span class="blk-cui__ico"><!--icone:mao--></span>
+        <h3>Durante: um ursinho para apertar</h3>
+        <p>Agulha deixa qualquer um tenso. No consultório tem um ursinho de pelúcia para segurar na hora, e o procedimento não se arrasta.</p>
+        <blockquote>"Atendimento humanizado, até um ursinho pra apertar na hora da tensão."<cite>Gislaine, no Google</cite></blockquote>
+      </li>
+      <li data-reveal style="--d:180ms">
+        <span class="blk-cui__n">03</span>
+        <span class="blk-cui__ico"><!--icone:check--></span>
+        <h3>Depois: foto na saída e no dia seguinte</h3>
+        <p>O resultado é registrado ao sair e de novo no dia seguinte, e ela acompanha a recuperação pelo WhatsApp até tudo assentar.</p>
+        <blockquote>"Ela se preocupa com cada resultado e acompanha o pós com muito cuidado."<cite>Gislaine, no Google</cite></blockquote>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-cui{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 10%,var(--bg))}
+.blk-cui__cab{max-width:48rem;margin-bottom:var(--sp-5)}
+.blk-cui__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-cui__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-cui__lista{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-4)}
+.blk-cui__lista li{position:relative;display:flex;flex-direction:column;padding:var(--sp-4) var(--sp-3) var(--sp-3);border-radius:var(--radius);background:var(--bg);border:1px solid color-mix(in srgb,var(--brand) 14%,transparent);overflow:hidden}
+.blk-cui__n{position:absolute;right:1rem;top:.2rem;font-family:var(--f-display);font-size:4.5rem;line-height:1;color:color-mix(in srgb,var(--pulse) 40%,transparent)}
+.blk-cui__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--brand)}
+.blk-cui__ico svg{width:100%;height:100%}
+.blk-cui__lista h3{margin:var(--sp-2) 0 .5rem;font-family:var(--f-display);font-size:1.6rem;line-height:1.15;color:var(--ink);max-width:16ch}
+.blk-cui__lista p{margin:0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-cui__lista blockquote{margin:var(--sp-3) 0 0;padding-top:var(--sp-3);border-top:1px solid color-mix(in srgb,var(--brand) 14%,transparent);font-family:var(--f-display);font-style:italic;font-size:1.15rem;line-height:1.4;color:var(--ink);margin-top:auto}
+.blk-cui__lista p+blockquote{margin-top:var(--sp-3)}
+.blk-cui__lista cite{display:block;margin-top:.4rem;font-family:var(--f-body);font-style:normal;font-size:var(--t-label);color:color-mix(in srgb,var(--ink) 60%,transparent)}
+@media (min-width:900px){
+  .blk-cui__lista{grid-template-columns:repeat(3,1fr);gap:var(--sp-3)}
+}
+</style>

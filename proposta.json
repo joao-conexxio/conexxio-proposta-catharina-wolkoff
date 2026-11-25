@@ -1,0 +1,209 @@
+{
+  "slug": "catharina-wolkoff",
+  "negocio": {
+    "nome": "Dra. Catharina Wolkoff",
+    "whatsapp": "5547988948702",
+    "telefone": "(47) 98894-8702",
+    "funcionamento": {
+      "seg": "09:00-22:00",
+      "ter": "09:00-22:00",
+      "qua": "09:00-22:00",
+      "qui": "09:00-22:00",
+      "sex": "09:00-22:00",
+      "sab": "09:00-18:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Anita Garibaldi · Joinville",
+        "endereco": "R. Eugênio Moreira, 514 – Anita Garibaldi, Joinville – SC, 89202-100",
+        "telefone": "(47) 98894-8702",
+        "horario": "Segunda a sexta, 9h às 22h · Sábado, 9h às 18h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#6B4440",
+    "brand2": "#472C29",
+    "ink": "#231917",
+    "bg": "#FAF6F3",
+    "pulse": "#C8957F",
+    "radius": "16px",
+    "registro": "editorial",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Manrope",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "O cuidado", "href": "#cuidado" },
+          { "texto": "Botox", "href": "#toxina" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Harmonização facial · Joinville",
+        "h1": "Lábios e botox com cuidado até o pós",
+        "lead": "A Dra. Catharina Wolkoff é biomédica esteta e atende no Anita Garibaldi. Você conta o que quer, ela diz o que fica harmônico, e o acompanhamento continua depois do procedimento.",
+        "cta": "Marcar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/retrato.jpg",
+        "imagemAlt": "Retrato em preto e branco da Dra. Catharina Wolkoff",
+        "tarja": [
+          "5,0 no Google, 89 avaliações",
+          "Acompanha o pós pelo WhatsApp",
+          "Atende até as 22h durante a semana",
+          "Sábado das 9h às 18h"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": ["Preenchimento labial", "Toxina botulínica", "Harmonização facial", "Avaliação do rosto", "Acompanhamento do pós"]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Quem atende",
+        "texto": [
+          "Quem marca com a Dra. Catharina é atendida por ela do começo ao fim: na avaliação, no procedimento e nos dias seguintes.",
+          "Muita gente chega querendo mudar uma coisa só. Ela escuta, olha o rosto inteiro e diz com sinceridade o que vale fazer e o que não vale. Há paciente que voltou para a segunda vez, e casal que já está no primeiro ano com ela."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "A indicação sai da avaliação. Estes são os procedimentos que as pacientes mais comentam.",
+        "itens": [
+          {
+            "nome": "Preenchimento labial",
+            "descricao": "Contorno, volume e hidratação da boca, desenhados para o seu rosto. É o procedimento mais citado nas avaliações, e o resultado é registrado na saída e no dia seguinte.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas de expressão da testa e ao redor dos olhos. A aplicação é rápida, com revisão em cerca de 15 dias.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Harmonização facial",
+            "descricao": "Um plano para o rosto todo, montado a partir do que você quer mudar e do que fica equilibrado. Pode ser feito por etapas, sem pressa.",
+            "icone": "estrela"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/cuidado.html"
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "Em números",
+        "itens": [
+          { "valor": "5,0", "rotulo": "nota no Google" },
+          { "valor": "89", "rotulo": "avaliações de pacientes", "contar": 89 },
+          { "valor": "22h", "rotulo": "último horário de segunda a sexta" },
+          { "valor": "6", "rotulo": "dias por semana de atendimento", "contar": 6 }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/calendario-toxina.html"
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Marcar é uma conversa curta",
+        "lead": "O número é o mesmo do Google, e o horário sai ali mesmo.",
+        "cta": "Chamar no WhatsApp",
+        "contato": "Dra. Catharina Wolkoff",
+        "mensagens": [
+          { "de": "paciente", "texto": "Oi, Dra.! Queria fazer o preenchimento labial, mas tenho medo de ficar exagerado." },
+          { "de": "clinica", "texto": "Oi! Super entendo. Na avaliação a gente olha juntas o seu rosto e eu te mostro o que fica natural em você." },
+          { "de": "paciente", "texto": "Tem horário depois do trabalho?" },
+          { "de": "clinica", "texto": "Tem sim, atendo até as 22h. Quinta às 19h30 fica bom pra você?" }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem já foi",
+        "itens": [
+          {
+            "texto": "Já faz um ano que conhecemos a Dra. e desde então eu e meu marido somos pacientes. Amamos o cuidado e a confiança que ela transmite em cada procedimento.",
+            "autor": "Camila",
+            "contexto": "Google"
+          },
+          {
+            "texto": "Não costuma demorar para realizar o procedimento, e dá opiniões que fazem muito sentido para deixar tudo mais harmônico.",
+            "autor": "Mayara",
+            "contexto": "Google"
+          },
+          {
+            "texto": "Tudo perfeito, Dra. muito atenciosa e estou amando o resultado. Fiz pela segunda vez com ela!",
+            "autor": "Isabelli",
+            "contexto": "Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Dúvidas comuns",
+        "itens": [
+          { "p": "O preenchimento labial fica artificial?", "r": "O volume é decidido com você na avaliação, a partir do formato da sua boca e do resto do rosto. A ideia é ficar com cara de você." },
+          { "p": "Dói?", "r": "Há um incômodo, que varia de pessoa para pessoa. O procedimento é rápido, e no consultório tem até um ursinho para apertar na hora." },
+          { "p": "Quanto tempo dura o botox?", "r": "Costuma durar de quatro a seis meses. A revisão acontece em cerca de 15 dias, e a data da aplicação fica anotada para você saber quando voltar." },
+          { "p": "E depois do procedimento?", "r": "Ela registra o resultado na saída e no dia seguinte, e acompanha a recuperação pelo WhatsApp." },
+          { "p": "Atende à noite e no sábado?", "r": "Sim. De segunda a sexta, das 9h às 22h; sábado, das 9h às 18h." }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": { "titulo": "Onde fica" }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Conte o que você quer mudar",
+        "lead": "A avaliação é marcada pelo WhatsApp, com horário até as 22h durante a semana.",
+        "cta": "Marcar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}
